@@ -4,10 +4,10 @@ import path from 'path';
 // Load the initialization tasks
 export const loadInitTasks = async () => {
   const initTasks = [];
-  const initFiles = fs.readdirSync(path.resolve('./init'));
+  const initFiles = fs.readdirSync(path.resolve('./inits'));
 
   for (const file of initFiles) {
-    const { initTask, priority = -Infinity } = await import(`./init/${file}`);
+    const { initTask, priority = -Infinity } = await import(`./inits/${file}`);
 
     // Validation
     if (typeof initTask !== 'function') {
