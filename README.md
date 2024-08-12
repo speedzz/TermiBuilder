@@ -14,7 +14,7 @@ Termi-Builder is a fully modular tool to build and execute terminal commands int
 1. Clone the repository:
    ```sh
    git clone https://github.com/speedzz/TermiBuilder.git
-   cd termi-builder
+   cd TermiBuilder
    ```
 
 2. Install dependencies:
