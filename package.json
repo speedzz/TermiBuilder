@@ -1,0 +1,19 @@
+{
+  "name": "termi-builder",
+  "version": "1.0.0",
+  "description": "A tool to build modular terminal commands.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5",
+    "mssql": "^11.0.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33"
+  }
+}
